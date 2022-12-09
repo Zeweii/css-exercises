@@ -3,6 +3,8 @@
   background: papayawhip;
   align-items: center;
   justify-content: space-between;
+  padding: 8px;
+  display: flex;
 }
 
 .logo {
@@ -18,6 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   gap: 8px;
+  list-style-type: none;
 }
 
 a {
