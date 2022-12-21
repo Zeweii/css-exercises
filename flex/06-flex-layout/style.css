@@ -37,5 +37,21 @@ li {
 }
 
 body {
+    /* display: flex; */
+}
+
+.header, .footer, .left-links, .right-links {
     display: flex;
+}
+
+.footer {
+
+}
+
+.left-links {
+    
+}
+
+.right-links {
+
 }
