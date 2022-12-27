@@ -28,24 +28,46 @@ input {
 
 /* solution */
 
-a:link {
-    text-decoration: none;    
+a {
+    text-decoration: none;   
+    color: #666; 
 }
 
-li {
+button {
+    padding: 8px 16px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
 }
 
 body {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
 }
 
-.header, .footer, .left-links, .right-links {
+.header, .footer {
     display: flex;
+    justify-content: space-between;
+    padding: 16px; 
 }
 
 .footer {
-    color: #eeeeee;
+    background: #eeeeee;
+
 }
 
 .left-links {
@@ -53,5 +75,5 @@ body {
 }
 
 .right-links {
-
+    justify-content: right;
 }
